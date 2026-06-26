@@ -267,6 +267,39 @@ margin: 0 auto;
   gap: 12px;
 }
 
+/* RENTAL HOURS CONTROL START */
+.hours-control {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  gap: 10px;
+  align-items: center;
+}
+
+.hours-control input {
+  width: 100%;
+  min-height: 48px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 14px;
+}
+
+.hours-btn {
+  min-height: 48px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--panel2);
+  color: var(--text);
+  font-size: 24px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.hours-btn:active {
+  transform: scale(.97);
+}
+/* RENTAL HOURS CONTROL END */
+
 /* Tablet */
 @media (max-width: 920px) {
   .rental-grid {
@@ -287,7 +320,21 @@ margin: 0 auto;
     align-items: start;
   }
 }
+/* RENTAL SELECTABLE CARDS START */
+.rental-card-option {
+  cursor: pointer;
+}
 
+.rental-card-option input {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.rental-card-option:has(input:checked) {
+  border-color: var(--brand);
+  background: var(--panel2);
+}
+/* RENTAL SELECTABLE CARDS END */
 /* ==================================================
    SPACE RENTALS END
 ================================================== */
@@ -488,6 +535,16 @@ margin: 0 auto;
       color: var(--brand);
       margin-top: 4px;
     }
+
+/* Still / Light Mode: hide Three.js background START */
+[data-theme="light"] #bg3d {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+/* Still / Light Mode: hide Three.js background END */
+/****MEDIA QUERIES START******/
+
     @media (max-width: 920px){
       .grid3{ grid-template-columns: 1fr; }
     }
@@ -590,10 +647,45 @@ margin: 0 auto;
     }
     textarea{ min-height: 110px; resize: vertical; }
 
-    /* CONTACT FORM END */
     #contact .small a {
       color: var(--brand);
     }
+
+    .forms_labels{
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+      display: inline-block;
+    }
+    /* CONTACT FORM END */
+
+/* CONTACT FORM STATUS START */
+#formStatus {
+  min-height: 20px;
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+#contactForm button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.required {
+  color: var(--brand);
+  font-weight: 700;
+}
+/* CONTACT FORM STATUS END */
+/* MESSAGE CHARACTER COUNTER START */
+.char-counter {
+  text-align: right;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+/* MESSAGE CHARACTER COUNTER END */
+
+
 
 /* SCROLL REVEAL START */
     .reveal{ opacity: 0; transform: translateY(14px); transition: all .55s ease; }
