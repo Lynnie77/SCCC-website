@@ -13,7 +13,7 @@ function showToast(text = "Copied ✅") {
   showToast._t = setTimeout(() => (toast.style.display = "none"), 1400);
 }
 
-
+ 
 // ---------------------------
 // Mobile menu START
 // ---------------------------
@@ -56,7 +56,7 @@ if (themeBtn) {
     const next = cur === "light" ? "dark" : "light";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("sacred_theme", next);
-    showToast(next === "light" ? "Light mode ☀️" : "Dark mode 🌙");
+    showToast(next === "light" ? "Still Mode 🌿" : "Sacred Mode ✨");
 
     // tweak 3D colors on theme change
     if (typeof setMaterialForTheme === "function") setMaterialForTheme(next);
@@ -109,119 +109,7 @@ if ($("#vibeTag")) $("#vibeTag").textContent = "Vibe: " + pick.vibe;
 // ---------------------------
 // Dynamic intention END
 // ---------------------------
-// Events (old sample data kept for reference)
-// ---------------------------
-/*
-const events = [
-  {
-    title: "Worship + Community Gathering",
-    date: "2026-03-01",
-    time: "10:00 AM",
-    location: "810 W 3rd Ave, Eugene",
-    tags: ["Worship", "Community", "All welcome"],
-    },
-    {
-    title: "Authentic Relating",
-    date: "2026-03-03",
-    time: "5:00 PM",
-    location: "810 W 3rd Ave, Eugene",
-    tags: ["Talking", "Communication", "Friends"],
-  },
-  {
-    title: "Chanting Circle (Beginner-Friendly)",
-    date: "2026-03-05",
-    time: "6:30 PM",
-    location: "Sanctuary Room",
-    tags: ["Chanting", "Meditation", "Relaxing"],
-  },
-  {
-    title: "Food Pantry + Community Share",
-    date: "2026-03-08",
-    time: "1:00 PM",
-    location: "Front Hall",
-    tags: ["Food pantry", "Support", "Service"],
-  },
-  {
-    title: "Sacred Geometry Night",
-    date: "2026-03-12",
-    time: "6:00 PM",
-    location: "Workshop Space",
-    tags: ["Sacred geometry", "Learning", "Creative"],
-    },
-    {
-    title: "Food Pantry + Community Share",
-    date: "2026-03-15",
-    time: "1:00 PM",
-    location: "Sanctuary Room",
-    tags: ["Food pantry", "Support", "Service"],
-  },
-  {
-    title: "Capoeira",
-    date: "2026-03-18",
-    time: "6:00 PM",
-    location: "Sanctuary Room",
-    tags: ["Energy work", "Brazilian", "Culture"],
-    },
-   {
-    title: "Yoga",
-    date: "2026-03-18",
-    time: "5:30 PM",
-    location: "Sanctuary Room",
-    tags: ["Elaine", "Breathe", "Stretch"],
-   }, 
-   {
-    title: "Food Pantry + Community Share",
-    date: "2026-03-22",
-    time: "1:00 PM",
-    location: "Sanctuary Room",
-    tags: ["Food pantry", "Support", "Service"],
-    },
-      {
-    title: "Food Pantry + Community Share",
-    date: "2026-03-29",
-    time: "1:00 PM",
-    location: "Sanctuary Room",
-    tags: ["Food pantry", "Support", "Service"],
-  },
-];
 
-function fmtBadge(iso) {
-  const d = new Date(iso + "T12:00:00");
-  const mo = d.toLocaleString(undefined, { month: "short" });
-  const day = d.getDate();
-  return { mo, day };
-}
-
-const grid = $("#eventsGrid");
-function renderEvents() {
-  if (!grid) return;
-  grid.innerHTML = "";
-  const sorted = [...events].sort((a, b) => a.date.localeCompare(b.date));
-  for (const ev of sorted) {
-    const b = fmtBadge(ev.date);
-    const el = document.createElement("article");
-    el.className = "event";
-    el.innerHTML = `
-      <div class="badge" aria-hidden="true">
-        <div class="mo">${b.mo}</div>
-        <div class="day">${b.day}</div>
-      </div>
-      <div>
-        <h4>${ev.title}</h4>
-        <div class="meta">
-          <div><strong>Time:</strong> ${ev.time}</div>
-          <div><strong>Place:</strong> ${ev.location}</div>
-        </div>
-        <div class="tagrow">
-          ${ev.tags.map((t) => `<span class="tag">${t}</span>`).join("")}
-        </div>
-      </div>
-    `;
-    grid.appendChild(el);
-  }
-}
-renderEvents();
-*/
 // ---------------------------
 // Events START (dynamic JS data + click for details)
 // ---------------------------
@@ -292,7 +180,7 @@ const events = [
   },
 */
     {
-    id: "yoga-meditation",
+    id: "yoga-meditation-06-24-2026",
     title: "Yoga Meditation",
     date: "2026-06-24",
     time: "5:30 PM",
@@ -308,7 +196,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Energy work"]
   },
     {
-    id: "art-walk",
+    id: "art-walk-06-25-2026",
     title: "Art Walk",
     date: "2026-06-26",
     time: "5:00 PM",
@@ -324,7 +212,7 @@ const events = [
     tags: ["Art", "Community", "Gathering"]
   },
     {
-    id: "food-pantry",
+    id: "food-pantry-06-28-2026",
     title: "Food Pantry + Community Share",
     date: "2026-06-28",
     time: "1:00 PM",
@@ -340,7 +228,7 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
     {
-    id: "yoga-meditation",
+    id: "yoga-meditation-07-01-2026",
     title: "Yoga Meditation",
     date: "2026-07-01",
     time: "5:30 PM",
@@ -356,7 +244,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Energy work"]
   },
       {
-    id: "food-pantry",
+    id: "food-pantry-07-05-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-05",
     time: "1:00 PM",
@@ -372,7 +260,7 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
       {
-    id: "scm-yoga",
+    id: "scm-yoga-meditation-07-06-2026",
     title: "Yoga Meditation", 
     date: "2026-07-06",
     time: "5:30 PM",
@@ -388,7 +276,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Elevated"]
   },
       {
-    id: "yoga-meditation",
+    id: "yoga-meditation-07-08-2026",
     title: "Yoga Meditation",
     date: "2026-07-08",
     time: "5:30 PM",
@@ -404,7 +292,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Energy work"]
   },
         {
-    id: "food-pantry",
+    id: "food-pantry-07-12-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-12",
     time: "1:00 PM",
@@ -420,7 +308,7 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
         {
-    id: "yoga-meditation",
+    id: "yoga-meditation-07-15-2026",
     title: "Yoga Meditation",
     date: "2026-07-15",
     time: "5:30 PM",
@@ -436,7 +324,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Energy work"]
   },
         {
-    id: "food-pantry",
+    id: "food-pantry-07-19-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-19",
     time: "1:00 PM",
@@ -452,7 +340,7 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
           {
-    id: "mystery-of-jazz",
+    id: "mystery-of-jazz-07-19-2026",
     title: "Mystery of Jazz",
     date: "2026-07-19",
     time: "6:00 PM",
@@ -468,7 +356,7 @@ const events = [
     tags: ["Music", "Jazz", "Performance"]
   },
         {
-    id: "yoga-meditation",
+    id: "yoga-meditation-07-22-2026",
     title: "Yoga Meditation",
     date: "2026-07-22",
     time: "5:30 PM",
@@ -484,7 +372,7 @@ const events = [
     tags: ["Yoga", "Meditation", "Energy work"]
   },
     {
-    id: "food-pantry",
+    id: "food-pantry-07-26-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-26",
     time: "1:00 PM",
@@ -500,7 +388,7 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
     {
-    id: "authentic-relating",
+    id: "authentic-relating-07-27-2026",
     title: "Authentic Relating",
     date: "2026-07-27",
     time: "5:00 PM",
@@ -516,7 +404,7 @@ const events = [
     tags: ["Relating", "Communication", "Talk"]
   },
         {
-    id: "yoga-meditation",
+    id: "yoga-meditation-07-29-2026",
     title: "Yoga Meditation",
     date: "2026-07-29",
     time: "5:30 PM",
@@ -657,16 +545,32 @@ function calcRental(){
   const totalEl = document.getElementById("rentalTotal");
   const breakdownEl = document.getElementById("rentalBreakdown");
 
-  // If rentals section isn't on the page, skip
   if(!hoursEl || !totalEl || !breakdownEl) return;
 
-  const space = document.querySelector('input[name="space"]:checked')?.value || "main";
+  const selectedSpaces = [...document.querySelectorAll('input[name="space"]:checked')];
+
+  if (selectedSpaces.length === 0) {
+    totalEl.textContent = "$0";
+    breakdownEl.textContent = " — Please choose at least one space.";
+    return;
+  }
 
   let hours = parseFloat(hoursEl.value || "2");
   if (Number.isNaN(hours) || hours < 2) hours = 2;
   hoursEl.value = hours;
 
-  const baseRate = rentalRates[space] ?? 45;
+  const baseRate = selectedSpaces.reduce((sum, item) => {
+    return sum + (rentalRates[item.value] ?? 0);
+  }, 0);
+
+  const spaceNames = selectedSpaces.map((item) => {
+    if (item.value === "main") return "Main Space";
+    if (item.value === "side") return "Workshop / Side Room";
+    if (item.value === "outdoor") return "Outdoor Area";
+    return "Space";
+  });
+
+  const spaceName = spaceNames.join(" + ");
 
   const tables = document.getElementById("tables")?.checked ? addonRates.tables : 0;
   const chairs = document.getElementById("chairs")?.checked ? addonRates.chairs : 0;
@@ -677,12 +581,6 @@ function calcRental(){
   const total = perHour * hours;
 
   totalEl.textContent = money(total);
-
-  const spaceName =
-    space === "main" ? "Main Space" :
-    space === "side" ? "Workshop / Side Room" :
-    "Outdoor Area";
-
   breakdownEl.textContent = ` — ${spaceName}: ${money(baseRate)}/hr + add-ons ${money(addonPerHour)}/hr × ${hours} hr`;
 }
 
@@ -704,32 +602,97 @@ function calcRental(){
 // Run once on load
 calcRental();
 
-
-
-
 // ---------------------------
 // Rentals estimator END
-// ---------------------------
-// Contact form START (mailto)
-// ---------------------------
-$("#contactForm")?.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const name = $("#name")?.value?.trim() ?? "";
-  const reply = $("#reply")?.value?.trim() ?? "";
-  const msg = $("#msg")?.value?.trim() ?? "";
 
-  const subject = encodeURIComponent(`Message from website: ${name || "Someone"} `);
-  const body = encodeURIComponent(
-    `Name: ${name || "(not provided)"}\nReply: ${reply || "(not provided)"}\n\nMessage:\n${msg || "(no message)"}\n`
-  );
+// RENTAL HOURS BUTTONS START
+const rentalHoursInput = document.getElementById("hours");
+const hoursMinus = document.getElementById("hoursMinus");
+const hoursPlus = document.getElementById("hoursPlus");
 
-  window.location.href = `mailto:sacredconnections810@gmail.com?subject=${subject}&body=${body}`;
-  showToast("Opening email ✉️");
+function setRentalHours(nextValue) {
+  if (!rentalHoursInput) return;
+
+  const min = Number(rentalHoursInput.min || 1);
+  const max = Number(rentalHoursInput.max || 24);
+  const cleanValue = Math.min(max, Math.max(min, Number(nextValue) || min));
+
+  rentalHoursInput.value = cleanValue;
+
+  rentalHoursInput.dispatchEvent(new Event("input", { bubbles: true }));
+  rentalHoursInput.dispatchEvent(new Event("change", { bubbles: true }));
+}
+
+hoursMinus?.addEventListener("click", () => {
+  setRentalHours(Number(rentalHoursInput.value || 1) - 1);
 });
 
+hoursPlus?.addEventListener("click", () => {
+  setRentalHours(Number(rentalHoursInput.value || 1) + 1);
+});
+
+rentalHoursInput?.addEventListener("focus", () => {
+  rentalHoursInput.select();
+});
+// RENTAL HOURS BUTTONS END
+
+
+
+// ---------------------------
+// Contact form START (Formspree)
+// ---------------------------
+$("#contactForm")?.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+  const status = $("#formStatus");
+  const submitBtn = form.querySelector('button[type="submit"]');
+
+  if (submitBtn) submitBtn.disabled = true;
+  if (status) status.textContent = "Sending your message...";
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json"
+      }
+    });
+
+    if (response.ok) {
+      form.reset();
+      if (status) status.textContent = "Message sent. Thank you 💖";
+      showToast("Message sent 💖");
+    } else {
+      if (status) status.textContent = "Message did not send. Please try again.";
+      showToast("Message did not send");
+    }
+  } catch (error) {
+    if (status) status.textContent = "Connection issue. Please try again.";
+    showToast("Connection issue");
+  }
+
+  if (submitBtn) submitBtn.disabled = false;
+});
+
+// MESSAGE CHARACTER COUNTER START
+const msg = $("#msg");
+const msgCount = $("#msgCount");
+
+if (msg && msgCount) {
+  const updateCount = () => {
+    msgCount.textContent = msg.value.length;
+  };
+
+  msg.addEventListener("input", updateCount);
+  updateCount();
+}
+// MESSAGE CHARACTER COUNTER END
 // ---------------------------
 // Contact form END
 // ---------------------------
+
 // Scroll reveal START
 // ---------------------------
 const obs = new IntersectionObserver(
@@ -913,9 +876,21 @@ function rebuildOrbiters(type) {
 let currentShape = "sphere"; // knot, ico, dode, sphere, torus, edges
 buildCore(currentShape);
 rebuildOrbiters(currentShape);
-
-// Keyboard switching (1–6)
+// Shape keyboard controls START
+// ---------------------------
+// Lets keyboard numbers change sacred shapes,
+// but NOT while someone is typing in forms.
 window.addEventListener("keydown", (e) => {
+  const typingTags = ["INPUT", "TEXTAREA", "SELECT"];
+  const isTyping = typingTags.includes(e.target?.tagName);
+
+  // Do not change shapes while user is using rental hours or forms
+  if (isTyping || e.target?.isContentEditable) return;
+
+  // Do not change shapes in Still / Light Mode
+  const theme = document.documentElement.getAttribute("data-theme") || "dark";
+  if (theme === "light") return;
+
   const map = {
     "1": "knot",
     "2": "ico",
@@ -923,21 +898,18 @@ window.addEventListener("keydown", (e) => {
     "4": "sphere",
     "5": "torus",
     "6": "edges",
-    "7": "polyhedron",
   };
+
   const next = map[e.key];
   if (!next) return;
 
   currentShape = next;
   buildCore(currentShape);
   rebuildOrbiters(currentShape === "edges" ? "knot" : currentShape);
-
-  const theme = document.documentElement.getAttribute("data-theme") || "dark";
   setMaterialForTheme(theme);
 
   showToast(`Shape: ${currentShape} ✨`);
 });
-
 // ---------------------------
 // Shape keyboard controls END
 // ---------------------------

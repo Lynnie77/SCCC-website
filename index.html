@@ -30,13 +30,16 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 -->
+<!--This is Geoff Stengel & i wanted to say thank u for viewing the site. 
+ps.. Please send figs lol--> 
+<!------------------------------->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sacred Community Church — Eugene, OR</title>
-  <meta name="description" content="Sacred Community Church — Community, healing, sacred geometry guidance, worship, food pantry, chanting, markets, and more." />
+  <title>Sacred Connections Community Church — Eugene, OR</title> 
+  <meta name="description" content="Sacred Connections Community Church — Community, healing, sacred geometry guidance, worship, food pantry, chanting, markets, and more." />
   <link rel="stylesheet" href="css/styles.css">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -362,29 +365,50 @@
       <div class="mini">
         <h3 style="margin:0 0 10px;">1) Choose a space</h3>
         <label class="rental-option">
-          <input type="radio" name="space" value="main" checked />
+          <input type="checkbox" name="space" value="main" checked />
           Main Space — $50/hr
         </label>
         <label class="rental-option">
-          <input type="radio" name="space" value="side" />
+          <input type="checkbox" name="space" value="side" />
           Workshop / Side Room — $30/hr
         </label>
         <label class="rental-option">
-          <input type="radio" name="space" value="outdoor" />
+          <input type="checkbox" name="space" value="outdoor" />
           Outdoor Area — $25/hr
         </label>
       </div>
 
-      <div class="mini">
-        <h3 style="margin:0 0 10px;">2) Hours</h3>
-        <div class="rental-row">
-          <label class="small" for="hours">How many hours?</label>
-          <input id="hours" type="number" min="2" value="2" />
-        </div>
-        <p class="small" style="margin:10px 0 0;">
-          Minimum is 2 hours (you can change this later if you want).
-        </p>
-      </div>
+<!-- RENTAL HOURS CARD START -->
+<div class="mini">
+  <h3 style="margin:0 0 10px;">2) Hours</h3>
+
+  <label class="small" for="hours">How many hours?</label>
+
+  <!-- RENTAL HOURS CONTROL START -->
+  <div class="hours-control">
+    <button type="button" class="hours-btn" id="hoursMinus" aria-label="Decrease rental hours">−</button>
+
+    <input
+      id="hours"
+      type="number"
+      min="2"
+      max="24"
+      step="1"
+      value="2"
+      inputmode="numeric"
+      pattern="[0-9]*"
+      aria-label="Rental hours"
+    />
+
+    <button type="button" class="hours-btn" id="hoursPlus" aria-label="Increase rental hours">+</button>
+  </div>
+  <!-- RENTAL HOURS CONTROL END -->
+
+  <p class="small" style="margin:10px 0 0;">
+    Minimum is 2 hours. Tap the number or use + / −.
+  </p>
+</div>
+<!-- RENTAL HOURS CARD END -->
 
       <div class="mini">
         <h3 style="margin:0 0 10px;">3) Add-ons</h3>
@@ -457,16 +481,63 @@
           <div class="card pad">
             <h3 style="margin:0 0 8px;">Message form</h3>
             <div class="small">
-              This opens your email app with a pre-filled message.
-              (No login needed.)
-            </div>
+              <!---/* (No login needed.) */ -->
+            </div> 
 
-            <form id="contactForm">
-              <input id="name" placeholder="Your name" autocomplete="name" />
-              <input id="reply" placeholder="Your email or phone" autocomplete="email" />
-              <textarea id="msg" placeholder="Your message"></textarea>
-              <button class="btn primary" type="submit">Send Email ✉️</button>
-            </form>
+            <!-- CONTACT FORM START -->
+      <form
+        id="contactForm"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+      >
+        <label class="forms_labels" for="name">Your Name <span class="required">*</span></label>     
+        <input
+          id="name"
+          name="name"
+          placeholder="Your name"
+          autocomplete="name"
+          minlength="2"
+          maxlength="60"
+          title="Please enter your name. 😊"
+          required
+        />
+
+        <label class="forms_labels"for="reply">Email or Phone <span class="required">*</span></label>        
+        <input
+          id="reply"
+          name="reply_to"
+          type="text"
+          placeholder="Email or phone"
+          autocomplete="email"
+          minlength="5"
+          maxlength="120"
+          title="Please enter your email address or phone number."
+          required
+        />
+        
+        <label class="forms_labels" for="msg">Message <span class="required">*</span></label>
+        <textarea
+          id="msg"
+          name="message"
+          placeholder="Your message"
+          minlength="10"
+          maxlength="150"
+          title="Tell us about your event, ask a question, or say hello..."
+          required
+        ></textarea> 
+
+          <div class="char-counter">
+            <span id="msgCount">0</span> / 150    
+          </div>  
+              
+        <button class="btn primary" type="submit">
+          Send Message ✉️
+        </button>
+      
+        <p id="formStatus" class="small" aria-live="polite"></p>
+      
+      </form>
+      <!-- CONTACT FORM END -->
           </div>
         </div>
       </section>
