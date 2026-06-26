@@ -3,7 +3,8 @@ Sacred Connections Community Church Website
 # sacred_connections_church_V3
 Website for Sacred Connections Community Church.  A place for community help & Food Pantry.
 
-👀 Watch Site Being Built As Changes Happen: https://geoffstengel.github.io/sacred_connections_church_V1/
+👀 Watch Site Being Built As Changes Happen: https://lynnie77.github.io/SCCC-website/
+👀 or it could be viewed at (https://www.sacredconnections810.com/)
 
 🗺️ Site Map:
     ✅ index.html Is Main Landing Page
@@ -13,6 +14,8 @@ Website for Sacred Connections Community Church.  A place for community help & F
     ✅ app.js Is Script For Functions to Make The Scheduler, Count Down etc.. (in js folder)
 
     ✅ images_logo Folder has variations of your logo
+
+    ✅ images_flyers Folder has flyers for events or sponsorships etc..
 
 💡 To Make The Site Yours Fully U Need The Code,
      1. Download ZIP Folder From Green Code Button @ https://github.com/GeoffStengel/sacred_connections_church_V1, 
