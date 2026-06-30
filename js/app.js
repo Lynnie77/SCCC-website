@@ -131,7 +131,7 @@ const events = [
     tags: ["Worship", "Community", "All welcome"]
   },
   {
-    id: "authentic-relating",
+    id: "authentic-relating-03-03-2026",
     title: "Authentic Relating",
     date: "2026-03-03",
     time: "5:00 PM",
@@ -211,28 +211,13 @@ const events = [
     tags: ["Art", "Community", "Gathering"]
   },
   */
-    {
-    id: "food-pantry-06-28-2026",
-    title: "Food Pantry + Community Share",
-    date: "2026-06-28",
-    time: "1:00 PM",
-    endTime: "3:00 PM",
-    location: "Front Hall",
-    type: "Service",
-    teacher: "Community Volunteers",
-    description:
-      "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "If donating: shelf-stable food, toiletries, or clean bags.",
-    cost: "Free",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Food pantry", "Support", "Service"]
-  },
-    {
+
+  {
     id: "yoga-meditation-07-01-2026",
     title: "Yoga Meditation",
     date: "2026-07-01",
     time: "5:30 PM",
-    endTime: "7:00 PM",
+    endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "Yoga",
     teacher: "Fox & Friends🦊",
@@ -243,19 +228,35 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
   },
-      {
+  {
+    id: "church-services-07-05-2026",
+    title: "Church Services",
+    date: "2026-07-05",
+    time: "11:00 AM",
+    endTime: "12:45 PM",
+    location: "Sanctuary",
+    type: "Service",
+    teacher: "Community Volunteers",
+    description:
+      "Our Service is to Be of Service.Join us for coffee, a Church-provided meal at noon, open Worship,music, & Community gathering. ",
+    bring: "Gratitude, and a bag to take goodies.",
+    cost: "Free / donation welcome",
+    contact: "sacredconnections810@gmail.com",
+    tags: ["Church Services", "Support", "Service"]
+  },
+  {
     id: "food-pantry-07-05-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-05",
     time: "1:00 PM",
     endTime: "3:00 PM",
-    location: "Front Hall",
+    location: "Outdoor Area",
     type: "Service",
     teacher: "Community Volunteers",
     description:
       "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "If donating: shelf-stable food, toiletries, or clean bags.",
-    cost: "Free",
+    bring: "Gratitude, and a bag to take goodies.",
+    cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Food pantry", "Support", "Service"]
   },
@@ -263,10 +264,10 @@ const events = [
     id: "scm-yoga-meditation-07-06-2026",
     title: "Elevated Yoga 🧘🏼‍♀️", 
     date: "2026-07-06",
-    time: "5:30 PM",
+    time: "4:30 PM Social / Yoga 5:30 PM",
     endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
-    type: "ElevatedYoga",
+    type: "Elevated Yoga",
     teacher: "Elayne Quirin 🌿",
     description:
       "Third Monday of every month we offer Elevated Yoga & Meditation w/ Elayne Quirin. Social time ...Tea & snacks.",
@@ -275,12 +276,12 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
   },
-      {
+  {
     id: "yoga-meditation-07-08-2026",
     title: "Yoga Meditation",
     date: "2026-07-08",
     time: "5:30 PM",
-    endTime: "7:00 PM",
+    endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "Yoga",
     teacher: "Fox & Friends🦊",
@@ -291,7 +292,7 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
-        {
+  {
     id: "food-pantry-07-12-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-12",
@@ -302,17 +303,17 @@ const events = [
     teacher: "Community Volunteers",
     description:
       "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "If donating: shelf-stable food, toiletries, or clean bags.",
-    cost: "Free",
+    bring: "Gratitude, and a bag to take goodies.",
+    cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Food pantry", "Support", "Service"]
   },
-        {
+  {
     id: "yoga-meditation-07-15-2026",
     title: "Yoga Meditation",
     date: "2026-07-15",
     time: "5:30 PM",
-    endTime: "7:00 PM",
+    endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "Yoga",
     teacher: "Fox & Friends🦊",
@@ -323,7 +324,7 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
   },
-        {
+  {
     id: "food-pantry-07-19-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-19",
@@ -334,12 +335,12 @@ const events = [
     teacher: "Community Volunteers",
     description:
       "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "If donating: shelf-stable food, toiletries, or clean bags.",
-    cost: "Free",
+    bring: "Gratitude, and a bag to take goodies.",
+    cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Food pantry", "Support", "Service"]
   },
-          {
+  {
     id: "mystery-of-jazz-07-19-2026",
     title: "Mystery of Jazz",
     date: "2026-07-19",
@@ -355,12 +356,12 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Music", "Jazz", "Performance"]
   },
-        {
+  {
     id: "yoga-meditation-07-22-2026",
     title: "Yoga Meditation",
     date: "2026-07-22",
     time: "5:30 PM",
-    endTime: "7:00 PM",
+    endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "Yoga",
     teacher: "Fox & Friends🦊",
@@ -371,7 +372,7 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
-    {
+  {
     id: "food-pantry-07-26-2026",
     title: "Food Pantry + Community Share",
     date: "2026-07-26",
@@ -382,12 +383,12 @@ const events = [
     teacher: "Community Volunteers",
     description:
       "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "If donating: shelf-stable food, toiletries, or clean bags.",
-    cost: "Free",
+    bring: "Gratitude, and a bag to take goodies.",
+    cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Food pantry", "Support", "Service"]
   },
-    {
+  {
     id: "authentic-relating-07-27-2026",
     title: "Authentic Relating",
     date: "2026-07-27",
@@ -403,12 +404,12 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Relating", "Communication", "Talk"]
   },
-        {
+  {
     id: "yoga-meditation-07-29-2026",
     title: "Yoga Meditation",
     date: "2026-07-29",
     time: "5:30 PM",
-    endTime: "7:00 PM",
+    endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "Yoga",
     teacher: "Fox & Friends🦊",
@@ -418,7 +419,24 @@ const events = [
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
-  },  
+  },
+  {
+    id: "art-walk-07-31-2026",
+    title: "Art Walk",
+    date: "2026-07-31",
+    time: "5:00 PM",
+    endTime: "9:00 PM",
+    location: "810 W 3rd Ave, Eugene",
+    type: "ArtWalk",
+    teacher: "Community ArtWalk",
+    description:
+      "Whiteaker Last Friday Artwalk, Food.. Music & Art!",
+    bring: "A water bottle & your walking shoes along with smiles",
+    cost: "Free / donation welcome",
+    contact: "sacredconnections810@gmail.com",
+    tags: ["Art", "Community", "Gathering"]
+  }, 
+
 ];
 
 function fmtBadge(iso) {
