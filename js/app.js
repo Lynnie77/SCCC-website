@@ -140,11 +140,27 @@ const events = [
     type: "Gathering",
     teacher: "Fox & Friends🦊",
     description:
-      "A welcoming community gathering with worship, prayer, and time to connect. Come as you are—quietly listen, join in, or just soak in the peace.",
+      "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
     bring: "A water bottle. A notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Relating", "Communication", "Talk"]
+  },
+  {
+    id: "scm-yoga-meditation-07-06-2026",
+    title: "Elevated Yoga 🧘🏼‍♀️", 
+    date: "2026-07-06",
+    time: "5:30 PM",
+    endTime: "6:30 PM",
+    location: "810 W 3rd Ave, Eugene",
+    type: "ElevatedYoga",
+    teacher: "Elayne Quirin 🌿",
+    description:
+      "Third Monday of every month we offer Elevated Yoga & Meditation w/ Elayne Quirin. Social time ...Tea & snacks.",
+    bring: "A water bottle & yoga mat, maybe snacks",
+    cost: "Free / donation welcome",
+    contact: "sacredconnections810@gmail.com",
+    tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
   },
   {
     id: "chanting-circle",
@@ -178,24 +194,7 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Sacred geometry", "Learning", "Creative"]
   },
-*/
-    {
-    id: "yoga-meditation-06-24-2026",
-    title: "Yoga Meditation",
-    date: "2026-06-24",
-    time: "5:30 PM",
-    endTime: "7:00 PM",
-    location: "810 W 3rd Ave, Eugene",
-    type: "Yoga",
-    teacher: "Fox & Friends🦊",
-    description:
-      "A welcoming community gathering with worship, prayer, and time to connect. Come as you are—quietly listen, join in, or just soak in the peace.",
-    bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
-  },
-    {
+  {
     id: "art-walk-06-25-2026",
     title: "Art Walk",
     date: "2026-06-26",
@@ -211,6 +210,7 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Art", "Community", "Gathering"]
   },
+  */
     {
     id: "food-pantry-06-28-2026",
     title: "Food Pantry + Community Share",
@@ -241,7 +241,7 @@ const events = [
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
+    tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
   },
       {
     id: "food-pantry-07-05-2026",
@@ -259,21 +259,21 @@ const events = [
     contact: "sacredconnections810@gmail.com",
     tags: ["Food pantry", "Support", "Service"]
   },
-      {
+  {
     id: "scm-yoga-meditation-07-06-2026",
-    title: "Yoga Meditation", 
+    title: "Elevated Yoga 🧘🏼‍♀️", 
     date: "2026-07-06",
     time: "5:30 PM",
     endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
     type: "ElevatedYoga",
-    teacher: "Elayne Quirin",
+    teacher: "Elayne Quirin 🌿",
     description:
       "Third Monday of every month we offer Elevated Yoga & Meditation w/ Elayne Quirin. Social time ...Tea & snacks.",
     bring: "A water bottle & yoga mat, maybe snacks",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Elevated"]
+    tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
   },
       {
     id: "yoga-meditation-07-08-2026",
@@ -289,7 +289,7 @@ const events = [
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
+    tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
         {
     id: "food-pantry-07-12-2026",
@@ -321,7 +321,7 @@ const events = [
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
+    tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
   },
         {
     id: "food-pantry-07-19-2026",
@@ -369,7 +369,7 @@ const events = [
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
+    tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
     {
     id: "food-pantry-07-26-2026",
@@ -417,7 +417,7 @@ const events = [
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Energy work"]
+    tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },  
 ];
 
