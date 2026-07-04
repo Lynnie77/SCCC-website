@@ -212,22 +212,7 @@ const events = [
   },
   */
 
-  {
-    id: "yoga-meditation-07-01-2026",
-    title: "Yoga Meditation",
-    date: "2026-07-01",
-    time: "5:30 PM",
-    endTime: "6:30 PM",
-    location: "810 W 3rd Ave, Eugene",
-    type: "Yoga",
-    teacher: "Fox & Friends🦊",
-    description:
-      "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
-    bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
-  },
+ 
   {
     id: "church-services-07-05-2026",
     title: "Church Services",
