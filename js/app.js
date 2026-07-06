@@ -212,71 +212,10 @@ const events = [
   },
   */
 
- 
-  {
-    id: "church-services-07-05-2026",
-    title: "Church Services",
-    date: "2026-07-05",
-    time: "11:00 AM",
-    endTime: "12:45 PM",
-    location: "Sanctuary",
-    type: "Service",
-    teacher: "Community Volunteers",
-    description:
-      "Our Service is to Be of Service.Join us for coffee, a Church-provided meal at noon, open Worship,music, & Community gathering. ",
-    bring: "Gratitude, and a bag to take goodies.",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Church Services", "Support", "Service"]
-  },
-  {
-    id: "food-pantry-07-05-2026",
-    title: "Food Pantry + Community Share",
-    date: "2026-07-05",
-    time: "1:00 PM",
-    endTime: "3:00 PM",
-    location: "Outdoor Area",
-    type: "Service",
-    teacher: "Community Volunteers",
-    description:
-      "Support and sharing for our neighbors. If you’d like to help, we can always use friendly hands and warm hearts.",
-    bring: "Gratitude, and a bag to take goodies.",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Food pantry", "Support", "Service"]
-  },
-  {
-    id: "scm-yoga-meditation-07-06-2026",
-    title: "Elevated Yoga 🧘🏼‍♀️", 
-    date: "2026-07-06",
-    time: "4:30 PM Social / Yoga 5:30 PM",
-    endTime: "6:30 PM",
-    location: "810 W 3rd Ave, Eugene",
-    type: "Elevated Yoga",
-    teacher: "Elayne Quirin 🌿",
-    description:
-      "Third Monday of every month we offer Elevated Yoga & Meditation w/ Elayne Quirin. Social time ...Tea & snacks.",
-    bring: "A water bottle & yoga mat, maybe snacks",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
-  },
-  {
-    id: "yoga-meditation-07-08-2026",
-    title: "Yoga Meditation",
-    date: "2026-07-08",
-    time: "5:30 PM",
-    endTime: "6:30 PM",
-    location: "810 W 3rd Ave, Eugene",
-    type: "Yoga",
-    teacher: "Fox & Friends🦊",
-    description:
-      "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
-    bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
-    cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
-    tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
-  },
+
+
+
+
   {
     id: "food-pantry-07-12-2026",
     title: "Food Pantry + Community Share",
@@ -294,9 +233,10 @@ const events = [
     tags: ["Food pantry", "Support", "Service"]
   },
   {
-    id: "yoga-meditation-07-15-2026",
-    title: "Yoga Meditation",
-    date: "2026-07-15",
+    id: "yoga-07-15-2026",
+    title: "Yoga",
+
+   date: "2026-07-15",
     time: "5:30 PM",
     endTime: "6:30 PM",
     location: "810 W 3rd Ave, Eugene",
@@ -340,10 +280,26 @@ const events = [
     cost: "Free / donation welcome",
     contact: "sacredconnections810@gmail.com",
     tags: ["Music", "Jazz", "Performance"]
+  }, 
+  {
+    id: "scm-yoga-meditation-07-20-2026",
+    title: "Elevated Yoga 🧘🏼‍♀️", 
+    date: "2026-07-20",
+    time: "4:30 PM Social / Yoga 5:30 PM",
+    endTime: "6:30 PM",
+    location: "810 W 3rd Ave, Eugene",
+    type: "Elevated Yoga",
+    teacher: "Elayne Quirin 🌿",
+    description:
+      "Third Monday of every month we offer Elevated Yoga & Meditation w/ Elayne Quirin. Social time ...Tea & snacks.",
+    bring: "A water bottle & yoga mat, maybe snacks",
+    cost: "Free / donation welcome",
+    contact: "sacredconnections810@gmail.com",
+    tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
   },
   {
-    id: "yoga-meditation-07-22-2026",
-    title: "Yoga Meditation",
+    id: "yoga-07-22-2026",
+    title: "Yoga",
     date: "2026-07-22",
     time: "5:30 PM",
     endTime: "6:30 PM",
@@ -390,8 +346,8 @@ const events = [
     tags: ["Relating", "Communication", "Talk"]
   },
   {
-    id: "yoga-meditation-07-29-2026",
-    title: "Yoga Meditation",
+    id: "yoga-07-29-2026",
+    title: "Yoga",
     date: "2026-07-29",
     time: "5:30 PM",
     endTime: "6:30 PM",
