@@ -246,7 +246,7 @@ const events = [
       "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
+    contact: "fixbikes@pm.me",
     tags: ["Yoga", "Fox & Friends 🦊", "Energy work"]
   },
   {
@@ -298,8 +298,8 @@ const events = [
     tags: ["Yoga", "Elayne Quirin 🌿", "Elevated Yoga"]
   },
   {
-    id: "yoga-07-22-2026",
-    title: "Yoga",
+    id: "vinyasa-flow-07-22-2026",
+    title: "Fox & Friends🦊 Vinyasa Flow",
     date: "2026-07-22",
     time: "5:30 PM",
     endTime: "6:30 PM",
@@ -310,7 +310,7 @@ const events = [
       "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
+    contact: "fixbikes@pm.me",
     tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
   {
@@ -346,8 +346,8 @@ const events = [
     tags: ["Relating", "Communication", "Talk"]
   },
   {
-    id: "yoga-07-29-2026",
-    title: "Yoga",
+    id: "vinyasa-flow-07-29-2026",
+    title: "Fox & Friends🦊 Vinyasa Flow",
     date: "2026-07-29",
     time: "5:30 PM",
     endTime: "6:30 PM",
@@ -358,7 +358,7 @@ const events = [
       "Fox & Friends teach a Vinyasa Fusion which incorporates elements of vinyasa, yin, hatha, and pranayama. These beginner to intermediate sessions will include modifications, challenges, and surprises for ALL LEVELS. Through practicing yoga asanas and pranayama (breathing techniques) one can organically improve focus, flexibility, and balance, while decreasing anxiety, depression, and overall levels of stress in the body.",
     bring: "A water bottle & yoga mat, maybe a notebook if you like taking notes.",
     cost: "Free / donation welcome",
-    contact: "sacredconnections810@gmail.com",
+    contact: "fixbikes@pm.me",
     tags: ["Yoga", "Meditation", "Fox & Friends 🦊"]
   },
   {
